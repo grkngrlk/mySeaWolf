@@ -1044,6 +1044,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 				isActive = true;
 				gameOver.Format(_T("      Game Started"));
 				SetWindowText(hEditGameOver, gameOver);
+				SetFocus(hWnd);
 			}
 
 		}
@@ -1052,7 +1053,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		case IDC_BUTTON2:
 		{
 			if (isActive) {
-
+				SetFocus(hWnd);
 				DeleteTimerQueue(hTimerQueue);
 				exit(0);
 			}
