@@ -7,7 +7,6 @@
 
 /*
 
-Laser ödevindeki gibi starta bastıktan sonra oyunu alta alıp geri yukarı almak gerekiyor(keypressed çalışması için).
 Nişangahı sağa götürmek için sağ oka , sola götürmek için sol oka basılır.
 Eğer nişangahı sabitlemek isterseniz alt tuşa basılır.
 Boşluk tuşuyla torpido ateşlenir.
