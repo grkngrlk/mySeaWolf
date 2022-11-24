@@ -8,7 +8,7 @@
 /*
 
 Nişangahı sağa götürmek için sağ oka , sola götürmek için sol oka basılır.
-Eğer nişangahı sabitlemek isterseniz alt tuşa basılır.
+Eğer nişangahı sabitlemek isterseniz alt ok tuşuna basılır.
 Boşluk tuşuyla torpido ateşlenir.
 
 Oyun ekranında aynı anda en fazla 2 adet torpido olabilir.
